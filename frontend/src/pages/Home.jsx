@@ -14,11 +14,11 @@ function Home() {
     }
     return <div className="home">
         <form onSubmit={handleSearch} className="search-form">
-            <input type="text" placeholder="Search for a movie..." className="search-input" />
-            <button type="submit" className="search-button" value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)}>Search</button>
+            <input type="text" placeholder="Search for a movie..." className="search-input" value={searchQuery} onChange={(e) => setSearchQuery(e.target.value)} />
+            <button type="submit" className="search-button">Search</button>
         </form>
         <div className="movies-grid">
-            {movies.map((movie) => (
+            {movies.map((movie) => movie.name.toLowerCase().startsWith(searchQuery.toLowerCase()) && (
                 <MovieCard movie={movie} key={movie.id}></MovieCard>
             ))}
         </div>
