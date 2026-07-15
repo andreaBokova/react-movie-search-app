@@ -1,4 +1,6 @@
+import "../css/Home.css";
 import MovieCard from "../components/MovieCard";
+
 import { useState, useEffect } from "react";
 import { searchMovie, getPopularMovies } from "../services/api";
 
@@ -28,7 +30,6 @@ function Home() {
     e.preventDefault();
     if (!searchQuery.trim()) return;
     setLoading(true);
- 
 
     try {
       const searchResults = await searchMovie(searchQuery);
@@ -39,7 +40,7 @@ function Home() {
       console.log(err);
     } finally {
       setLoading(false);
-      setSearchQuery("")
+      setSearchQuery("");
     }
   };
   return (
