@@ -10,11 +10,11 @@ The application connects to a movie API that allows users to search for movies a
 
 ### Home Page
 
-![Home Page](docs/images/home-page.png)
+![Home Page](frontend/docs/images/home-page.png)
 
 ### Favorites Page
 
-![Favorites Page](docs/images/favorites-page.png)
+![Favorites Page](frontend/docs/images/favorites-page.png)
 
 ## Features
 
