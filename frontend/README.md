@@ -1,16 +1,51 @@
-# React + Vite
+# Movie Search App 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A basic React project created for learning purposes.
 
-Currently, two official plugins are available:
+This project is based on the **Tech With Tim React movie search app tutorial on YouTube** and is built to practice fundamental React concepts.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The application connects to a movie API that allows users to search for movies and add selected movies to a favorites list.
 
-## React Compiler
+## Screenshots
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Home Page
 
-## Expanding the ESLint configuration
+![Home Page](docs/images/home-page.png)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Favorites Page
+
+![Favorites Page](docs/images/favorites-page.png)
+
+## Features
+
+Search movies using an external API
+Display movie results
+Add movies to favorites
+Remove movies from favorites
+
+## Setup
+
+Create a new Vite React project:
+```bash
+npm create vite@latest
+```
+
+Navigate into the project:
+```bash
+cd frontend
+```
+
+Install dependencies:
+```bash
+npm install
+```
+
+Start the development server:
+```bash
+npm run dev
+```
+
+Install React Router:
+```bash
+npm install react-router-dom
+```
