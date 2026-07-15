@@ -1,8 +1,6 @@
 # Movie Search App 
 
-A basic React project created for learning purposes.
-
-This project is based on the **Tech With Tim React movie search app tutorial on YouTube** and is built to practice fundamental React concepts.
+A basic React project created for learning purposes - built to practice fundamental React concepts.
 
 The application connects to a movie API that allows users to search for movies and add selected movies to a favorites list.
 
